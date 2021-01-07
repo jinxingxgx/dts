@@ -106,6 +106,7 @@ public class WxHomeController {
 	 *            当用户已经登录时，非空。为登录状态为null
 	 * @return 首页数据
 	 */
+
 	@SuppressWarnings("rawtypes")
 	@GetMapping("/index")
 	public Object index(@LoginUser Integer userId) {
