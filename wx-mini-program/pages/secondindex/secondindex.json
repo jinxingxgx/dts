@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "zan-capsule": "../../lib/zanui-weapp/capsule/index",
+    "coupon-window": "../../lib/coupon-window/index",
+    "home": "../../lib/home/index",
+   
+    "wux-grids": "../../dist/grids/index",
+    "wux-grid": "../../dist/grid/index",
+    "wux-tabs": "../../dist/tabs/index",
+    "wux-tab": "../../dist/tab/index",
+    "wux-badge": "../../dist/badge/index",
+    "wux-search-bar": "../../dist/search-bar/index",
+    "wux-media": "../../dist/media/index",
+      "wux-tag": "../../dist/tag/index",
+      "wux-icon": "../../dist/icon/index",
+      "wux-button": "../../dist/button/index"
+  }
+
+  
+}

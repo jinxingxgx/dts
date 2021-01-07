@@ -1,0 +1,6 @@
+ERROR 2020-07-23 23:17:30,994 [http-nio-8083-exec-2] c.q.dts.admin.shiro.AdminAuthorizingRealm > 找不到用户（honggu）的帐号信息
+ERROR 2020-07-23 23:17:30,995 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录  错误:用户帐号或密码不正确
+ERROR 2020-07-23 23:17:33,137 [http-nio-8083-exec-3] c.q.dts.admin.shiro.AdminAuthorizingRealm > 找不到用户（honggu）的帐号信息
+ERROR 2020-07-23 23:17:33,137 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录  错误:用户帐号或密码不正确
+ERROR 2020-07-23 23:34:56,011 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminAdminController > 校验错误：管理员名称不符合规定
+ERROR 2020-07-23 23:34:57,774 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminAdminController > 校验错误：管理员名称不符合规定

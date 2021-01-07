@@ -1,0 +1,7 @@
+ERROR 2020-05-26 15:46:28,085 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-05-26 15:55:52,916 [http-nio-9990-exec-4] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-05-26 16:01:26,149 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-05-26 16:25:49,894 [http-nio-9990-exec-1] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:用户未登录！！！
+ERROR 2020-05-26 16:26:00,225 [http-nio-9990-exec-4] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-05-26 16:26:41,891 [http-nio-9990-exec-3] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:存储评论数据到库出错！
+ERROR 2020-05-26 16:30:00,143 [http-nio-9990-exec-1] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！

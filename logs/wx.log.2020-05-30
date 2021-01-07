@@ -1,0 +1,4 @@
+INFO  2020-05-30 22:50:47,679 [restartedMain] com.qiguliuxing.dts.wx.Application > Starting Application on xgx with PID 2744 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-05-30 22:50:47,680 [restartedMain] com.qiguliuxing.dts.wx.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-05-30 22:50:47,680 [restartedMain] com.qiguliuxing.dts.wx.Application > The following profiles are active: dev
+INFO  2020-05-30 22:50:58,584 [restartedMain] com.qiguliuxing.dts.wx.Application > Started Application in 11.703 seconds (JVM running for 13.796)

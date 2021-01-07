@@ -1,0 +1,3 @@
+ERROR 2020-08-03 23:35:53,847 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-08-03 23:44:07,823 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-08-03 23:47:03,661 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！

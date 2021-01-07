@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "搜索",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+   
+    "wux-icon": "../../dist/icon/index",
+    "wux-grids": "../../dist/grids/index",
+    "wux-grid": "../../dist/grid/index",
+  "wux-media": "../../dist/media/index",
+    "wux-tag": "../../dist/tag/index",
+   
+    "wux-button": "../../dist/button/index"
+  }
+}

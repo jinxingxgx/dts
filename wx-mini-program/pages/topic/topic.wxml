@@ -1,0 +1,25 @@
+<view class="container">
+	<scroll-view  scroll-y="true" scroll-top="{{scrollTop}}">
+		<navigator  wx:for="{{topicList}}" wx:key="id" url="../topicDetail/topicDetail?id={{item.id}}">
+			<view class="cu-card article ">
+				<view class="cu-item shadow">
+					<view class="title">
+						<view class="text-cut">{{item.title}}</view>
+					</view>
+					<view class="content">
+					
+						<view class="desc">
+							<view class="text-content">{{item.subtitle}}</view>
+					{{item.updateTime}}
+						</view>
+							<image src="{{item.picUrl}}" mode="aspectFill"></image>
+					</view>
+				</view>
+			</view>
+		</navigator>
+		<view class="page" wx:if="{{showPage}}">
+			<view class="prev {{ page <= 1 ? 'disabled' : ''}}" bindtap="prevPage">上一页</view>
+			<view class="next {{ (count / size) < page ? 'disabled' : ''}}" bindtap="nextPage">下一页</view>
+		</view>
+	</scroll-view>
+</view>

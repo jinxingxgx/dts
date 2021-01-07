@@ -1,0 +1,11 @@
+ERROR 2020-04-30 14:23:16,287 [http-nio-8083-exec-2] c.q.dts.admin.shiro.AdminAuthorizingRealm > 找不到用户（admin123）的帐号信息
+ERROR 2020-04-30 14:23:16,289 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录  错误:用户帐号或密码不正确
+ERROR 2020-04-30 14:23:17,808 [http-nio-8083-exec-5] c.q.dts.admin.shiro.AdminAuthorizingRealm > 找不到用户（admin123）的帐号信息
+ERROR 2020-04-30 14:23:17,809 [http-nio-8083-exec-5] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录  错误:用户帐号或密码不正确
+ERROR 2020-04-30 14:23:23,391 [http-nio-8083-exec-7] c.q.dts.admin.shiro.AdminAuthorizingRealm > 找不到用户（admin123）的帐号信息
+ERROR 2020-04-30 14:23:23,391 [http-nio-8083-exec-7] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录  错误:用户帐号或密码不正确
+ERROR 2020-04-30 14:47:21,599 [http-nio-8083-exec-10] com.qiguliuxing.dts.admin.web.AdminAdminController > 校验错误：管理员名称不符合规定
+ERROR 2020-04-30 14:47:28,973 [http-nio-8083-exec-5] com.qiguliuxing.dts.admin.web.AdminAdminController > 校验错误：管理员密码长度不能小于6
+ERROR 2020-04-30 15:05:20,560 [http-nio-8083-exec-4] c.q.dts.admin.shiro.AdminAuthorizingRealm > 找不到用户（admin123）的帐号信息
+ERROR 2020-04-30 15:05:20,562 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 系统管理->用户登录  错误:用户帐号或密码不正确
+ERROR 2020-04-30 15:31:17,121 [http-nio-8083-exec-6] com.qiguliuxing.dts.core.storage.AliyunStorage > 阿里云存储 keyName：d688baloaut6lcwzk8mb.gif ,失败：UnknownHost

@@ -1,0 +1,6 @@
+ERROR 2020-07-24 00:15:49,915 [http-nio-8083-exec-5] com.qiguliuxing.dts.admin.web.AdminUserController > 用户管理->会员管理->代理审批 出错：申请账户不存在
+ERROR 2020-07-24 00:15:59,228 [http-nio-8083-exec-1] com.qiguliuxing.dts.admin.web.AdminUserController > 用户管理->会员管理->代理审批 出错：申请账户不存在
+ERROR 2020-07-24 00:21:33,322 [http-nio-8083-exec-9] com.qiguliuxing.dts.admin.web.AdminUserController > 用户管理->会员管理->代理审批 出错：申请账户不存在
+ERROR 2020-07-24 00:21:42,237 [http-nio-8083-exec-8] com.qiguliuxing.dts.admin.web.AdminUserController > 用户管理->会员管理->代理审批 出错：申请账户不存在
+ERROR 2020-07-24 00:34:27,688 [http-nio-8083-exec-3] com.qiguliuxing.dts.admin.web.AdminUserController > 用户管理->会员管理->代理审批 出错：申请账户不存在
+ERROR 2020-07-24 00:38:53,517 [http-nio-8083-exec-5] com.qiguliuxing.dts.admin.web.AdminUserController > 用户管理->会员管理->代理审批 出错：申请账户不存在

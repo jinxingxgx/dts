@@ -1,0 +1,10 @@
+ERROR 2020-06-07 00:51:53,112 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-07 13:42:08,445 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-07 17:09:10,369 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-07 17:09:41,454 [http-nio-9990-exec-4] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:存储评论数据到库出错！
+ERROR 2020-06-07 17:10:32,109 [http-nio-9990-exec-10] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:存储评论数据到库出错！
+ERROR 2020-06-07 17:14:18,678 [http-nio-9990-exec-4] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:存储评论数据到库出错！
+ERROR 2020-06-07 17:15:14,014 [http-nio-9990-exec-6] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:存储评论数据到库出错！
+ERROR 2020-06-07 17:42:04,086 [http-nio-9990-exec-1] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:用户未登录！！！
+ERROR 2020-06-07 17:42:10,401 [http-nio-9990-exec-3] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:存储评论数据到库出错！
+ERROR 2020-06-07 17:52:00,746 [http-nio-9990-exec-1] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:用户未登录！！！

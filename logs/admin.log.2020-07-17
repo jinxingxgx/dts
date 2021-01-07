@@ -1,0 +1,6 @@
+INFO  2020-07-17 23:03:58,421 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on xgx with PID 7412 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-07-17 23:03:58,422 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-07-17 23:03:58,422 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2020-07-17 23:04:27,242 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-07-17 23:04:27,458 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 32.525 seconds (JVM running for 36.211)
+INFO  2020-07-17 23:04:27,608 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单

@@ -1,0 +1,103 @@
+INFO  2020-05-06 17:17:07,317 [restartedMain] com.qiguliuxing.dts.wx.Application > Starting Application on xgx with PID 3324 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-05-06 17:17:07,318 [restartedMain] com.qiguliuxing.dts.wx.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-05-06 17:17:07,318 [restartedMain] com.qiguliuxing.dts.wx.Application > The following profiles are active: dev
+INFO  2020-05-06 17:17:23,203 [restartedMain] com.qiguliuxing.dts.wx.Application > Started Application in 16.708 seconds (JVM running for 18.134)
+INFO  2020-05-06 17:25:18,845 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 17:25:18,845 [http-nio-8080-exec-1] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 17:25:20,016 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 17:25:20,532 [http-nio-8080-exec-1] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求结束】访问首页,响应结果,优惠券信息：[]
+INFO  2020-05-06 17:25:28,168 [http-nio-8080-exec-3] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品分类类目,请求参数,id:100101305
+INFO  2020-05-06 17:25:28,289 [http-nio-8080-exec-3] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品分类类目,响应结果:{"currentCategory":{"addTime":"2020-05-01T23:32:38","deleted":false,"desc":"奶茶","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/ue68lss9ea75nivseopj.gif","id":100101306,"keywords":"奶茶","level":"L2","name":"奶茶","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/sfgsfo2detuk3ou2op7p.gif","pid":100101305,"sortOrder":50,"updateTime":"2020-05-01T23:32:38"},"brotherCategory":[{"$ref":"$.currentCategory"}],"parentCategory":{"addTime":"2020-05-01T23:27:36","deleted":false,"desc":"","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/nodfbwtbjj1tlwcubmay.jpg","id":100101305,"keywords":"饮品","level":"L1","name":"饮品","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/a2axgqql2lhvzj9oh3ov.jpg","pid":0,"sortOrder":50,"updateTime":"2020-05-01T23:27:36"}}
+INFO  2020-05-06 17:25:28,348 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】根据条件搜素商品,请求参数,categoryId:100101306,brandId:null,keyword:null
+INFO  2020-05-06 17:25:28,508 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】根据条件搜素商品,响应结果:查询的商品数量:1,总数：1,总共 1 页
+INFO  2020-05-06 17:25:32,076 [http-nio-8080-exec-5] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品分类类目,请求参数,id:100101305
+INFO  2020-05-06 17:25:32,146 [http-nio-8080-exec-5] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品分类类目,响应结果:{"currentCategory":{"addTime":"2020-05-01T23:32:38","deleted":false,"desc":"奶茶","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/ue68lss9ea75nivseopj.gif","id":100101306,"keywords":"奶茶","level":"L2","name":"奶茶","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/sfgsfo2detuk3ou2op7p.gif","pid":100101305,"sortOrder":50,"updateTime":"2020-05-01T23:32:38"},"brotherCategory":[{"$ref":"$.currentCategory"}],"parentCategory":{"addTime":"2020-05-01T23:27:36","deleted":false,"desc":"","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/nodfbwtbjj1tlwcubmay.jpg","id":100101305,"keywords":"饮品","level":"L1","name":"饮品","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/a2axgqql2lhvzj9oh3ov.jpg","pid":0,"sortOrder":50,"updateTime":"2020-05-01T23:27:36"}}
+INFO  2020-05-06 17:25:32,184 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】根据条件搜素商品,请求参数,categoryId:100101306,brandId:null,keyword:null
+INFO  2020-05-06 17:25:32,323 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】根据条件搜素商品,响应结果:查询的商品数量:1,总数：1,总共 1 页
+INFO  2020-05-06 17:25:33,546 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情,请求参数,userId:null,id:23857
+INFO  2020-05-06 17:25:33,658 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxCartController > 【请求开始】登录用户购物车商品数量,请求参数,userId:null
+INFO  2020-05-06 17:25:33,730 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】获取商品详情成功!
+INFO  2020-05-06 17:25:33,770 [http-nio-8080-exec-9] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情页面“大家都在看”推荐商品,请求参数,id:23857
+INFO  2020-05-06 17:25:33,916 [http-nio-8080-exec-9] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品详情页面“大家都在看”推荐商品,响应结果:查询的商品数量:1
+INFO  2020-05-06 17:25:53,259 [http-nio-8080-exec-10] com.qiguliuxing.dts.wx.web.WxCatalogController > 【请求开始】分类详情,请求参数,id:null
+INFO  2020-05-06 17:25:53,275 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 17:25:53,308 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 17:25:53,339 [http-nio-8080-exec-10] com.qiguliuxing.dts.wx.web.WxCatalogController > 【请求结束】分类详情,响应结果：{"currentCategory":{"addTime":"2020-05-01T23:27:36","deleted":false,"desc":"","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/nodfbwtbjj1tlwcubmay.jpg","id":100101305,"keywords":"饮品","level":"L1","name":"饮品","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/a2axgqql2lhvzj9oh3ov.jpg","pid":0,"sortOrder":50,"updateTime":"2020-05-01T23:27:36"},"categoryList":[{"$ref":"$.currentCategory"}],"currentSubCategory":[{"addTime":"2020-05-01T23:32:38","deleted":false,"desc":"奶茶","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/ue68lss9ea75nivseopj.gif","id":100101306,"keywords":"奶茶","level":"L2","name":"奶茶","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/sfgsfo2detuk3ou2op7p.gif","pid":100101305,"sortOrder":50,"updateTime":"2020-05-01T23:32:38"}]}
+INFO  2020-05-06 17:36:07,570 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情,请求参数,userId:null,id:23857
+INFO  2020-05-06 17:36:07,590 [http-nio-8080-exec-5] com.qiguliuxing.dts.wx.web.WxCartController > 【请求开始】登录用户购物车商品数量,请求参数,userId:null
+INFO  2020-05-06 17:36:08,734 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】获取商品详情成功!
+INFO  2020-05-06 17:36:08,768 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情页面“大家都在看”推荐商品,请求参数,id:23857
+INFO  2020-05-06 17:36:08,921 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品详情页面“大家都在看”推荐商品,响应结果:查询的商品数量:1
+INFO  2020-05-06 17:36:23,528 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxSearchController > 【请求开始】搜索页面信息展示,请求参数,userId:null
+INFO  2020-05-06 17:36:23,645 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxSearchController > 【请求结束】搜索页面信息展示,响应结果:{"defaultKeyword":{"addTime":"2018-02-01T00:00:00","deleted":false,"id":6,"isDefault":true,"isHot":true,"keyword":"女装","sortOrder":1,"updateTime":"2018-02-01T00:00:00","url":""},"hotKeywordList":[{"addTime":"2018-02-01T00:00:00","deleted":false,"id":6,"isDefault":true,"isHot":true,"keyword":"女装","sortOrder":1,"updateTime":"2018-02-01T00:00:00","url":""}],"historyKeywordList":[]}
+INFO  2020-05-06 17:40:55,396 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情,请求参数,userId:null,id:23857
+INFO  2020-05-06 17:40:55,449 [http-nio-8080-exec-10] com.qiguliuxing.dts.wx.web.WxCartController > 【请求开始】登录用户购物车商品数量,请求参数,userId:null
+INFO  2020-05-06 17:40:55,581 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】获取商品详情成功!
+INFO  2020-05-06 17:40:55,611 [http-nio-8080-exec-1] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情页面“大家都在看”推荐商品,请求参数,id:23857
+INFO  2020-05-06 17:40:55,764 [http-nio-8080-exec-1] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品详情页面“大家都在看”推荐商品,响应结果:查询的商品数量:1
+INFO  2020-05-06 17:48:10,437 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品分类类目,请求参数,id:100101305
+INFO  2020-05-06 17:48:12,513 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品分类类目,响应结果:{"currentCategory":{"addTime":"2020-05-01T23:32:38","deleted":false,"desc":"奶茶","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/ue68lss9ea75nivseopj.gif","id":100101306,"keywords":"奶茶","level":"L2","name":"奶茶","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/sfgsfo2detuk3ou2op7p.gif","pid":100101305,"sortOrder":50,"updateTime":"2020-05-01T23:32:38"},"brotherCategory":[{"$ref":"$.currentCategory"}],"parentCategory":{"addTime":"2020-05-01T23:27:36","deleted":false,"desc":"","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/nodfbwtbjj1tlwcubmay.jpg","id":100101305,"keywords":"饮品","level":"L1","name":"饮品","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/a2axgqql2lhvzj9oh3ov.jpg","pid":0,"sortOrder":50,"updateTime":"2020-05-01T23:27:36"}}
+INFO  2020-05-06 17:48:12,629 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】根据条件搜素商品,请求参数,categoryId:100101306,brandId:null,keyword:null
+INFO  2020-05-06 17:48:12,776 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】根据条件搜素商品,响应结果:查询的商品数量:1,总数：1,总共 1 页
+INFO  2020-05-06 17:49:02,032 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 17:49:02,033 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 17:49:02,047 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 17:49:02,083 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 17:49:24,289 [http-nio-8080-exec-9] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 17:49:24,289 [http-nio-8080-exec-9] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 17:49:24,303 [http-nio-8080-exec-10] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 17:49:24,340 [http-nio-8080-exec-10] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 17:49:59,482 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 17:49:59,483 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 17:49:59,493 [http-nio-8080-exec-1] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 17:49:59,733 [http-nio-8080-exec-1] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 17:50:44,543 [http-nio-8080-exec-3] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 17:50:44,543 [http-nio-8080-exec-3] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 17:50:44,553 [http-nio-8080-exec-5] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 17:50:44,589 [http-nio-8080-exec-5] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 17:51:00,195 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 17:51:00,196 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 17:51:00,209 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 17:51:00,241 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 17:51:15,626 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 17:51:15,626 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 17:51:15,639 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 17:51:15,676 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 17:51:25,137 [http-nio-8080-exec-9] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情,请求参数,userId:null,id:23857
+INFO  2020-05-06 17:51:25,153 [http-nio-8080-exec-10] com.qiguliuxing.dts.wx.web.WxCartController > 【请求开始】登录用户购物车商品数量,请求参数,userId:null
+INFO  2020-05-06 17:51:26,216 [http-nio-8080-exec-9] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】获取商品详情成功!
+INFO  2020-05-06 17:51:26,248 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情页面“大家都在看”推荐商品,请求参数,id:23857
+INFO  2020-05-06 17:51:26,395 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品详情页面“大家都在看”推荐商品,响应结果:查询的商品数量:1
+INFO  2020-05-06 18:00:09,009 [http-nio-8080-exec-5] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 18:00:09,009 [http-nio-8080-exec-5] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 18:00:09,022 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 18:00:11,084 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 18:06:50,805 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 18:06:50,805 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 18:06:50,821 [http-nio-8080-exec-10] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 18:06:52,387 [http-nio-8080-exec-10] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 18:07:24,616 [http-nio-8080-exec-9] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 18:07:24,616 [http-nio-8080-exec-9] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 18:07:24,627 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 18:07:24,663 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 18:20:48,883 [http-nio-8080-exec-5] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 18:20:48,883 [http-nio-8080-exec-5] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 18:20:48,894 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 18:20:50,562 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 18:21:32,701 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxHomeController > 【请求开始】访问首页,请求参数,userId:null
+INFO  2020-05-06 18:21:32,727 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxHomeController > 访问首页,存在缓存数据，除用户优惠券信息外，加载缓存数据,有效期时间点：2020-05-06T23:25:20.529
+INFO  2020-05-06 18:21:32,756 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】在售的商品总数...
+INFO  2020-05-06 18:21:32,803 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】在售的商品总数,响应结果:{"goodsCount":1}
+INFO  2020-05-06 18:44:31,983 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情,请求参数,userId:null,id:23857
+INFO  2020-05-06 18:44:32,069 [http-nio-8080-exec-9] com.qiguliuxing.dts.wx.web.WxCartController > 【请求开始】登录用户购物车商品数量,请求参数,userId:null
+INFO  2020-05-06 18:44:34,315 [http-nio-8080-exec-2] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】获取商品详情成功!
+INFO  2020-05-06 18:44:34,367 [http-nio-8080-exec-1] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品详情页面“大家都在看”推荐商品,请求参数,id:23857
+INFO  2020-05-06 18:44:34,538 [http-nio-8080-exec-1] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品详情页面“大家都在看”推荐商品,响应结果:查询的商品数量:1
+INFO  2020-05-06 18:44:42,760 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品分类类目,请求参数,id:100101305
+INFO  2020-05-06 18:44:42,844 [http-nio-8080-exec-4] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品分类类目,响应结果:{"currentCategory":{"addTime":"2020-05-01T23:32:38","deleted":false,"desc":"奶茶","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/ue68lss9ea75nivseopj.gif","id":100101306,"keywords":"奶茶","level":"L2","name":"奶茶","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/sfgsfo2detuk3ou2op7p.gif","pid":100101305,"sortOrder":50,"updateTime":"2020-05-01T23:32:38"},"brotherCategory":[{"$ref":"$.currentCategory"}],"parentCategory":{"addTime":"2020-05-01T23:27:36","deleted":false,"desc":"","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/nodfbwtbjj1tlwcubmay.jpg","id":100101305,"keywords":"饮品","level":"L1","name":"饮品","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/a2axgqql2lhvzj9oh3ov.jpg","pid":0,"sortOrder":50,"updateTime":"2020-05-01T23:27:36"}}
+INFO  2020-05-06 18:44:43,136 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】根据条件搜素商品,请求参数,categoryId:100101306,brandId:null,keyword:null
+INFO  2020-05-06 18:44:43,306 [http-nio-8080-exec-6] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】根据条件搜素商品,响应结果:查询的商品数量:1,总数：1,总共 1 页
+INFO  2020-05-06 18:44:46,766 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】商品分类类目,请求参数,id:100101305
+INFO  2020-05-06 18:44:46,850 [http-nio-8080-exec-7] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】商品分类类目,响应结果:{"currentCategory":{"addTime":"2020-05-01T23:32:38","deleted":false,"desc":"奶茶","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/ue68lss9ea75nivseopj.gif","id":100101306,"keywords":"奶茶","level":"L2","name":"奶茶","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/sfgsfo2detuk3ou2op7p.gif","pid":100101305,"sortOrder":50,"updateTime":"2020-05-01T23:32:38"},"brotherCategory":[{"$ref":"$.currentCategory"}],"parentCategory":{"addTime":"2020-05-01T23:27:36","deleted":false,"desc":"","iconUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/nodfbwtbjj1tlwcubmay.jpg","id":100101305,"keywords":"饮品","level":"L1","name":"饮品","picUrl":"https://xgx-tutu.oss-cn-beijing.aliyuncs.com/a2axgqql2lhvzj9oh3ov.jpg","pid":0,"sortOrder":50,"updateTime":"2020-05-01T23:27:36"}}
+INFO  2020-05-06 18:44:46,917 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求开始】根据条件搜素商品,请求参数,categoryId:100101306,brandId:null,keyword:null
+INFO  2020-05-06 18:44:47,084 [http-nio-8080-exec-8] com.qiguliuxing.dts.wx.web.WxGoodsController > 【请求结束】根据条件搜素商品,响应结果:查询的商品数量:1,总数：1,总共 1 页

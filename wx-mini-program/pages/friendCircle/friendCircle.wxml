@@ -1,0 +1,42 @@
+<wux-fab-button wx:if="{{canPush}}"  position="bottomRight" theme="positive" direction="vertical" buttons="{{ buttons }}" bind:click="onClick" />
+
+<view class="cu-card dynamic" wx:for="{{allCommentList}}" wx:key="id">
+	<view class="cu-item shadow">
+
+		<view class="cu-list menu-avatar">
+
+			<view class="cu-item">
+
+				<view class="cu-avatar round lg" wx:if="{{item.isShow==1&&categoryId !='100101319'}}" style="background-image:url(/static/images/logo.png);"></view>
+	<view class="cu-avatar round lg" wx:else style="background-image:url({{item.userInfo.avatar}});"></view>
+
+				<view class="content flex-sub">
+
+					<view class="flex justify-between">
+						<view wx:if="{{item.isShow==1&&categoryId !='100101319'}}">******用户</view>
+						<view wx:else>{{item.userInfo.nickname}}</view>
+						<view>
+							<wux-button class=" padding" bindtap="call" data-phone="{{item.phone}}" size="small" type="positive">
+								<wux-icon type="ios-call" size="16" color="#fff" /> 电话 </wux-button>
+								<wux-button  bindtap="del" wx:if="{{userId!=null&& (userId=='203' ||userId=='202') }}" data-id="{{item.id}}" size="small" type="assertive">
+								<wux-icon type="ios-archive" size="16"color="#fff"  /> 删除 </wux-button>
+						</view>
+					</view>
+					<view class="text-gray text-sm flex justify-between">
+						{{item.createTime}}
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="text-content">
+			{{item.content}}
+		</view>
+
+		<view class="grid flex-sub margin-bootom-sm padding-lr{{item.icons.length>1?'col-3 grid-square':'col-1'}}">
+			<view class="bg-img  {{item.icons.length>1?'':'only-img'}}" bindtap="previewImage" data-list="{{item.icons}}" data-item="{{pitem}}" style="background-image:url({{pitem}});" wx:for="{{item.icons}}" wx:for-item="pitem">
+			</view>
+		</view>
+
+
+	</view>
+</view>

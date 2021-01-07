@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "红古好管家",
+  "usingComponents": {
+    "zan-capsule": "../../lib/zanui-weapp/capsule/index",
+    "coupon-window": "../../lib/coupon-window/index",
+    "home": "../../lib/home/index",
+    "wux-icon": "../../dist/icon/index",
+    "wux-grids": "../../dist/grids/index",
+    "wux-grid": "../../dist/grid/index"
+  
+  }
+}

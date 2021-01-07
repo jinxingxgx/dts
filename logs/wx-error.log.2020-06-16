@@ -1,0 +1,24 @@
+ERROR 2020-06-16 15:48:21,385 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-16 16:03:08,125 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-16 16:06:08,188 [http-nio-9990-exec-1] c.qiguliuxing.dts.wx.web.WxFriendCircleController > 用户收藏列表查询失败:用户未登录！！！
+ERROR 2020-06-16 16:12:18,252 [http-nio-9990-exec-3] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-16 16:23:46,304 [http-nio-9990-exec-1] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-16 16:25:09,873 [http-nio-9990-exec-1] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-16 16:41:44,129 [http-nio-9990-exec-1] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-16 17:42:38,140 [http-nio-9990-exec-1] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-16 18:12:58,620 [http-nio-9990-exec-1] com.qiguliuxing.dts.wx.web.WxCouponController > 个人可领取优惠券列表:用户未登录！！！
+ERROR 2020-06-16 19:29:56,001 [restartedMain] o.s.b.diagnostics.LoggingFailureAnalysisReporter > 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field DtsStorageService in com.qiguliuxing.dts.core.storage.StorageService required a bean of type 'com.qiguliuxing.dts.db.service.DtsStorageService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.qiguliuxing.dts.db.service.DtsStorageService' in your configuration.
+

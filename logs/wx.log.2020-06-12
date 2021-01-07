@@ -1,0 +1,8 @@
+INFO  2020-06-12 16:28:04,333 [restartedMain] com.qiguliuxing.dts.wx.Application > Starting Application on xgx with PID 10948 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-12 16:28:04,334 [restartedMain] com.qiguliuxing.dts.wx.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-12 16:28:04,334 [restartedMain] com.qiguliuxing.dts.wx.Application > The following profiles are active: dev
+INFO  2020-06-12 16:28:24,942 [restartedMain] com.qiguliuxing.dts.wx.Application > Started Application in 22.397 seconds (JVM running for 24.885)
+INFO  2020-06-12 16:29:28,308 [restartedMain] com.qiguliuxing.dts.wx.Application > Starting Application on xgx with PID 10948 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-12 16:29:28,309 [restartedMain] com.qiguliuxing.dts.wx.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-12 16:29:28,309 [restartedMain] com.qiguliuxing.dts.wx.Application > The following profiles are active: dev
+INFO  2020-06-12 16:29:37,438 [restartedMain] com.qiguliuxing.dts.wx.Application > Started Application in 9.209 seconds (JVM running for 97.375)

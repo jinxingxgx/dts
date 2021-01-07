@@ -1,0 +1,15 @@
+<view class='newsDetail'>
+	<!-- <image class="img" src="{{brand.picUrl}}" background-size="cover"></image>
+   <view class='title'>{{brand.name}}</view>
+   <view class='list acea-row row-middle'>
+      <view  class='label cart-color'> {{brand.address}}</view>
+     
+      <view class='item'><text class='iconfont icon-shenhezhong'></text>{{brand.phone}}</view>
+    
+   </view> -->
+   <view class='conter'>
+     <template is="wxParse" data="{{wxParseData:content.nodes}}"/>
+   </view>
+</view>
+<import src="/lib/wxParse/wxParse.wxml" />
+

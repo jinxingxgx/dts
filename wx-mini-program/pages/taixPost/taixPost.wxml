@@ -1,0 +1,37 @@
+<view class="container"><form>
+	<view class="post-comment">
+
+<view class="cu-form-group wux-hairline--bottom wux-hairline--top">
+	<view class="title">车牌号</view>
+		<input placeholder="请输入车牌号" type="content" bindinput="bindInputValue" value="{{content}}"></input>
+
+	</view>
+
+  <view class="cu-form-group wux-hairline--bottom wux-hairline--top">
+		<view class="title">联系电话</view>
+		<input placeholder="请输入手机号码" type="tel" bindinput="phone" value="{{phone}}"></input>
+
+	</view>
+   <view class="cu-form-group wux-hairline--bottom wux-hairline--top">
+		<view class="title">司机姓名</view>
+		<input placeholder="请输入司机姓名" type="title" value="{{title}}" bindinput="title"></input>
+
+	</view>
+  	<view class="cu-form-group wux-hairline--bottom">
+		<view class="title">是否载客</view>
+		<switch class="blue sm"  bindchange="switchChange" checked="{{isShow}}" ></switch>
+	</view>
+  
+    <wux-row>
+      <wux-col span="6" >
+      <view class="wux-padding--10">  <wux-button block outline type="assertive" bindtap="onClose" >取消</wux-button></view>
+      </wux-col>     
+      <wux-col span="6" >
+            <view class="wux-padding--10">  <wux-button block type="positive"  bindtap="onPost">更新信息</wux-button></view>
+
+        
+      </wux-col>  
+    </wux-row>
+    
+  </view></form>
+</view>

@@ -1,0 +1,75 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="search">
+	
+		<navigator url="/pages/search/search" class="input jhx_bg1 wux-margin-left--10">
+			<image class="icon"></image>
+			<text class="txt jhx_f1">搜索</text>
+		</navigator>
+	</view>
+	<view class='bg-white padding'>
+			<wux-icon type="ios-pin" size="18" class="wux-margin-right--5" color="#33cd5f" />	{{address}}	<wux-icon type="ios-arrow-forward" size="14" class="wux-margin-right--5" color="#666" />
+	</view>
+
+	<swiper wx:if="{{banner.length>0}}" class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+		<swiper-item wx:for="{{banner}}" wx:key="id">
+			<navigator url="/pages/AdDetail/AdDetail?id={{item.id}}"> 
+			<image src="{{item.url}}" background-size="cover"></image>
+		</navigator>
+		</swiper-item>
+	</swiper>
+
+	<wux-grids col="{{(channel.length%4)==0?4:3}}">
+
+		<block wx:for="{{channel}}" wx:key="id">
+			<navigator hover-class="none" class="item" wx:if="{{item.name=='信息发布'||item.name=='二手市场'||item.name=='出租车'||item.name=='车辆预约' }}" url="/pages/friendCircle/friendCircle?id={{item.id}}&title={{item.name}}">
+				<wux-grid thumb="{{item.iconUrl}}" label="{{item.name}}" />
+			</navigator>
+		<navigator hover-class="none" class="item" wx:elif="{{item.name=='常用电话'}}" url="/pages/phonebook/phonebook?id=1001145">
+				<wux-grid thumb="{{item.iconUrl}}" label="{{item.name}}" />
+			</navigator>
+			<navigator hover-class="none" class="item" wx:elif="{{item.hasSon==false}}" url="/pages/category/category?id={{item.id}}&title={{item.name}}">
+				<wux-grid thumb="{{item.iconUrl}}" label="{{item.name}}" />
+			</navigator>
+			<navigator hover-class="none" class="item" wx:else url="/pages/thirdindex/thirdindex?id={{item.id}}&title={{item.name}}">
+				<wux-grid thumb="{{item.iconUrl}}" label="{{item.name}}" />
+			</navigator>
+		</block>
+
+	</wux-grids>
+
+	<view class="a-section a-popular">
+		<view class='hot-bg'>
+			<view class='title acea-row row-between-wrapper'>
+				<view class='text wux-text--center'>
+					<text class='label '>{{title=='便民信息'?'信息推荐':'好店推荐'}}</text>
+				</view>
+				<!-- <navigator class='more jhx_f6' hover-class="none" url=''>更多
+          <text class="iconfont icon-jiantou"></text>
+        </navigator> -->
+			</view>
+		</view>
+		<view class="wux-hairline--bottom bg-white" wx:for="{{brands}}" wx:for-index="index" wx:for-item="item" wx:key="id">
+
+			<wux-media thumbStyle="width:100px;height:60px" bindtap='goInfo' data-id='{{item.id}}' thumb="{{item.picUrl}}" title="{{item.name}}" >
+				
+						<view class="wux-margin-top--5" >
+						<wux-tag color="volcano">{{item.address}}</wux-tag>
+						<wux-button class="wux-pull-right" bindtap="call" data-phone="{{item.phone}}" size="small" type="positive"><wux-icon type="ios-call" size="16" color="#fff"  /> 电话</wux-button>
+					
+					</view>
+			
+			</wux-media>
+
+		</view>
+
+	</view>
+	 <view class='cu-tabbar-height'></view>
+	<view class='news acea-row row-between-wrapper bottom'>
+
+		<text class='label'>广告合作：‭186 9308 5080‬（微信同号）</text>
+
+	</view>
+
+</view>
+<coupon-window window='{{window}}' couponList="{{coupon}}" bind:onColse="onColse"></coupon-window>

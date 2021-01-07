@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "信息发布",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "wux-fab-button": "../../dist/fab-button/index",
+    "wux-icon": "../../dist/icon/index",
+    "wux-button": "../../dist/button/index"
+  }
+}

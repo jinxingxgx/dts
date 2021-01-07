@@ -1,0 +1,210 @@
+INFO  2020-06-16 15:45:54,532 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on xgx with PID 12096 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-16 15:45:54,533 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-16 15:45:54,533 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2020-06-16 15:46:07,879 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 15:46:07,909 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 14.287 seconds (JVM running for 15.296)
+INFO  2020-06-16 15:46:08,041 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 16:16:10,238 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 16:46:08,017 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 16:46:10,412 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 17:16:12,602 [pool-1-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 17:33:03,572 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on xgx with PID 12096 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-16 17:33:03,573 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-16 17:33:03,573 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2020-06-16 17:33:11,410 [pool-2-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 17:33:11,418 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 7.938 seconds (JVM running for 6438.768)
+INFO  2020-06-16 17:33:11,545 [pool-2-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 18:03:13,750 [pool-2-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 18:14:42,368 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求开始】系统管理->用户登录,请求参数:body:{"username":"dtsadmin","password":"dtsadmin"}
+INFO  2020-06-16 18:14:44,577 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户登录,响应结果:"03357dec-5e21-4013-bd18-9ccfd3fe49c3"
+INFO  2020-06-16 18:14:44,746 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminAuthController > 【请求结束】系统管理->用户信息获取,响应结果:{"roles":["超级管理员"],"name":"dtsadmin","perms":["*"],"avatar":"https://juhuixing-public.oss-cn-shenzhen.aliyuncs.com/luq950dq4wzhsn54eq1y.jpeg"}
+INFO  2020-06-16 18:14:44,869 [http-nio-8083-exec-6] c.q.dts.admin.web.AdminDashbordController > 【请求开始】系统管理->首页仪表盘查询
+INFO  2020-06-16 18:14:45,019 [http-nio-8083-exec-6] c.q.dts.admin.web.AdminDashbordController > 【请求结束】系统管理->首页仪表盘查询:响应结果:{"goodsTotal":1,"userTotal":9,"productTotal":8659,"orderTotal":0}
+INFO  2020-06-16 18:14:49,162 [http-nio-8083-exec-9] c.qiguliuxing.dts.admin.web.AdminArticleController > 【请求开始】推广管理->公告管理->查询,请求参数:title:null,page:1
+INFO  2020-06-16 18:14:49,447 [http-nio-8083-exec-9] c.qiguliuxing.dts.admin.web.AdminArticleController > 【请求结束】推广管理->公告管理->查询,响应结果:{"total":2,"items":[{"addTime":"2019-05-17T22:23:13","content":"<p>&nbsp;&nbsp;感谢广大用户长期以来对聚惠星商城的支持和信赖，为了更好的服务于广大购物用户，经过数月的开发和内测，新升级版本将于2019年7月1日全面上线试运行。商城在整体风格、交易模式、版块设置、商品种类、用户体验、使用功能等方面全面升级，更好的为商家和用户提供商品批发和零售服务。现将有关事项公告如下：</p>\n<p>&nbsp;&nbsp; <strong>一． 试运行期间推出优惠活动，诚邀各种商品批发商，希望能与提供物美价廉的商家一同合作</strong></p>\n<p>&nbsp;&nbsp; <strong>二． 试运行期间诚邀各种推广代理商及个人，平台提供商品批发及零售，平台提供佣金服务，具体请联系客服了解。</strong></p>\n<p>&nbsp;&nbsp; 欢迎各位朋友关注本小程序，同时各位用户可以关注本平台的服务号\"长沙市聚惠星信息科技\"，聚惠星运行期间欢迎广大用户提供宝贵意见和建议，以便给广大参与者提供更加优质的服务和用户体验。</p>\n<center><strong>长沙市聚惠星信息科技有限责任公司</strong></center>","deleted":false,"id":1,"title":"平台1.0版本正式发布上线","type":"1","updateTime":"2019-10-21T23:53:32"},{"addTime":"2019-05-16T22:24:02","content":"<ul style=\"list-style-type: square;\">\n<li><span style=\"text-decoration: underline;\"><strong><span style=\"color: #00ccff; text-decoration: underline;\">平台将从试运行阶段开始，提供各种优惠券领取活动，敬请广大用户关注。</span></strong></span></li>\n</ul>","deleted":false,"id":2,"title":"全场优惠券大放送,敬请关注","type":"1","updateTime":"2019-10-21T23:56:56"}]}
+INFO  2020-06-16 18:14:50,307 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAdController > 【请求开始】推广管理->广告管理->查询,请求参数:name:null,content:null,page:1
+INFO  2020-06-16 18:14:50,536 [http-nio-8083-exec-2] com.qiguliuxing.dts.admin.web.AdminAdController > 【请求结束】推广管理->广告管理->查询,响应结果:{"total":4,"items":[{"addTime":"2019-10-05T21:11:58","content":"测试广告","deleted":false,"enabled":true,"id":4,"link":"www.baidu.com","name":"测试广告","position":100101307,"updateTime":"2020-06-03T01:11:27","url":"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/nlzvqw7jauvtnx6p8hts.jpg"},{"addTime":"2018-02-01T00:00:00","content":"测","deleted":false,"enabled":true,"id":1,"link":"","name":"测试广告二","position":1,"updateTime":"2020-04-30T14:45:15","url":"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/ddlu7ce1ntzxrnaxqdyn.jpg"},{"addTime":"2018-02-01T00:00:00","content":"测试","deleted":false,"enabled":true,"id":2,"link":"","name":"测试广告3","position":1,"updateTime":"2020-04-30T14:45:32","url":"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/dxzvhddk5b8olybkucdv.jpg"},{"addTime":"2018-02-01T00:00:00","content":"童装特惠","deleted":false,"enabled":true,"id":3,"link":"","name":"测试广告4","position":1,"updateTime":"2020-04-30T14:45:40","url":"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/3bluuokv04qsdiunppk3.jpg"}]}
+INFO  2020-06-16 18:15:29,228 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminTopicController > 【请求开始】推广管理->专题管理->查询,请求参数,title:null,subtitle:null,page:1
+INFO  2020-06-16 18:15:29,302 [http-nio-8083-exec-4] com.qiguliuxing.dts.admin.web.AdminTopicController > 【请求结束】推广管理->专题管理->查询:响应结果:{"total":3,"items":[{"addTime":"2019-10-10T11:00:00","content":"<p><img src=\"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/3kh017xfld3luh8y6h7r.jpg\" alt=\"\" width=\"1440\" height=\"800\" /></p>","deleted":false,"goods":[18595,18596,18598,18602,18607,18622,18624,18627,18628,18630,18651,18662,18665,18674,18676,18683,18734,18736],"id":264,"picUrl":"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/rzqjvv318gesdjqptvuq.jpg","price":99.00,"readCount":"77.7k","sortOrder":0,"subtitle":"测试","title":"测试","updateTime":"2020-05-31T22:38:19"},{"addTime":"2019-10-10T00:05:25","content":"<p><img src=\"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/v9w5nnro13ldmo0ocijx.jpg\" alt=\"\" width=\"1440\" height=\"800\" /></p>","deleted":false,"goods":[17838,17839,17840,17841,17842,17843,17844,17845,17846,17847,17848,17849,17850,17851,17852,17853,17854,17855,17856,17857,17858,17859,17860,17861,17862,17863,17864,17865,17866,17867,17868,17869,17870,17871,17872,17873,17874,17875,17876,17877,17878,17879,17880,17881,17882,17883,17884,17885,17886,17887,17888,17889],"id":316,"picUrl":"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/y4r9fbsr5vgt0dqzbaxk.jpg","price":15.00,"readCount":"3k","sortOrder":100,"subtitle":"测试3","title":"测试2","updateTime":"2020-05-31T22:38:31"},{"addTime":"2019-10-09T22:11:25","content":"<p><img src=\"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/5qsxz9ejw3tlyk7y6ff9.jpg\" alt=\"\" width=\"1440\" height=\"800\" /></p>","deleted":false,"goods":[18032,18033,18035,18036,18071,18077,18091,18105,18112,18121,18136,18163],"id":315,"picUrl":"https://juhuixing-dts.oss-cn-shenzhen.aliyuncs.com/3wu4kqq1sufwigkg14mo.jpg","price":40.00,"readCount":"2k","sortOrder":100,"subtitle":"测试4","title":"测试4","updateTime":"2020-05-31T22:38:38"}]}
+INFO  2020-06-16 18:33:11,525 [pool-2-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 18:33:13,931 [pool-2-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 18:38:29,668 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on xgx with PID 12096 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-16 18:38:29,668 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-16 18:38:29,668 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2020-06-16 18:38:39,855 [pool-3-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 18:38:39,862 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 10.27 seconds (JVM running for 10367.189)
+INFO  2020-06-16 18:38:39,967 [pool-3-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 19:04:50,698 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on xgx with PID 12096 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-16 19:04:50,698 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-16 19:04:50,698 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2020-06-16 19:05:01,368 [pool-4-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 19:05:01,375 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 10.75 seconds (JVM running for 11948.693)
+INFO  2020-06-16 19:05:01,499 [pool-4-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 19:29:48,019 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on xgx with PID 12096 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-16 19:29:48,019 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-16 19:29:48,019 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+ERROR 2020-06-16 19:29:50,501 [restartedMain] org.springframework.boot.SpringApplication > Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroConfig' defined in file [F:\wai\商业单\商城\dts-shop\dts-admin-api\target\classes\com\qiguliuxing\dts\admin\config\ShiroConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationAttributeSourceAdvisor' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'authorizationAttributeSourceAdvisor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realm' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.qiguliuxing.dts.admin.shiro.AdminAuthorizingRealm] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a5f53d]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:581)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:236)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:710)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.qiguliuxing.dts.admin.api.Application.main(Application.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationAttributeSourceAdvisor' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'authorizationAttributeSourceAdvisor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realm' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.qiguliuxing.dts.admin.shiro.AdminAuthorizingRealm] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a5f53d]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:581)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:352)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	... 29 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationAttributeSourceAdvisor' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Unsatisfied dependency expressed through method 'authorizationAttributeSourceAdvisor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realm' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.qiguliuxing.dts.admin.shiro.AdminAuthorizingRealm] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a5f53d]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:732)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:94)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:76)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:352)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:304)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1703)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	... 52 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realm' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.qiguliuxing.dts.admin.shiro.AdminAuthorizingRealm] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a5f53d]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:590)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	... 70 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.shiro.web.mgt.DefaultWebSecurityManager]: Circular reference involving containing bean 'shiroConfig' - consider declaring the factory method as static for independence from its containing instance. Factory method 'securityManager' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realm' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.qiguliuxing.dts.admin.shiro.AdminAuthorizingRealm] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a5f53d]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	... 83 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'realm' defined in class path resource [com/qiguliuxing/dts/admin/config/ShiroConfig.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.qiguliuxing.dts.admin.shiro.AdminAuthorizingRealm] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a5f53d]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:550)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:392)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:364)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$28eba52c.realm(<generated>)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig.securityManager(ShiroConfig.java:55)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$28eba52c.CGLIB$securityManager$1(<generated>)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$28eba52c$$FastClassBySpringCGLIB$$c49219d1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at com.qiguliuxing.dts.admin.config.ShiroConfig$$EnhancerBySpringCGLIB$$28eba52c.securityManager(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 84 common frames omitted
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.qiguliuxing.dts.admin.shiro.AdminAuthorizingRealm] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a5f53d]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:758)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:690)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:354)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:339)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:298)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1013)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:547)
+	... 103 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/qiguliuxing/dts/db/service/DtsAdminService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:753)
+	... 109 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.qiguliuxing.dts.db.service.DtsAdminService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:148)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 113 common frames omitted
+INFO  2020-06-16 19:29:55,700 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on xgx with PID 12096 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-16 19:29:55,700 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-16 19:29:55,700 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2020-06-16 19:30:03,552 [pool-5-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 19:30:03,558 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 7.922 seconds (JVM running for 13450.868)
+INFO  2020-06-16 19:30:03,694 [pool-5-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 19:30:15,467 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on xgx with PID 12096 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-16 19:30:15,467 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-16 19:30:15,467 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2020-06-16 19:30:25,696 [pool-6-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 19:30:25,703 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 10.304 seconds (JVM running for 13473.013)
+INFO  2020-06-16 19:30:25,838 [pool-6-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 19:33:48,391 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Starting Application on xgx with PID 12096 (started by Administrator in F:\wai\商业单\商城\dts-shop)
+DEBUG 2020-06-16 19:33:48,391 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+INFO  2020-06-16 19:33:48,392 [restartedMain] com.qiguliuxing.dts.admin.api.Application > The following profiles are active: dev
+INFO  2020-06-16 19:33:56,266 [pool-7-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 19:33:56,274 [restartedMain] com.qiguliuxing.dts.admin.api.Application > Started Application in 7.971 seconds (JVM running for 13683.582)
+INFO  2020-06-16 19:33:56,377 [pool-7-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 20:03:58,587 [pool-7-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单
+INFO  2020-06-16 20:33:56,364 [pool-7-thread-1] com.qiguliuxing.dts.admin.job.CouponJob > 系统开启任务检查优惠券是否已经过期
+INFO  2020-06-16 20:33:58,776 [pool-7-thread-1] com.qiguliuxing.dts.admin.job.OrderJob > 系统开启任务检查订单是否已经超期自动取消订单

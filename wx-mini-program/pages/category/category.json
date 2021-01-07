@@ -1,0 +1,13 @@
+{
+
+  "usingComponents": {
+    "wux-tabs": "../../dist/tabs/index",
+    "wux-tab": "../../dist/tab/index",
+    "wux-badge": "../../dist/badge/index",
+    "wux-search-bar": "../../dist/search-bar/index",
+    "wux-media": "../../dist/media/index",
+      "wux-tag": "../../dist/tag/index",
+      "wux-icon": "../../dist/icon/index",
+      "wux-button": "../../dist/button/index"
+  }
+}
